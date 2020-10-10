@@ -1,0 +1,199 @@
+body{
+  margin: 0 auto 0 auto;
+}
+
+button,img,select{
+  position: absolute;
+  margin: 0 auto;
+}
+
+button{
+  z-index: 1;
+}
+
+.kids{
+  width: 25vw;
+  z-index: 1;
+  margin-left: 10vw;
+  margin-top: 5vw;
+}
+
+.text{
+  width: 25vw;
+  z-index: 1;
+  margin-left: 63vw;
+  margin-top: 7vw;
+}
+
+.items{
+  width: 30vw;
+  z-index: 1;
+  margin-left: 60vw;
+  margin-top: 10vw;
+}
+
+.kids-select{
+  margin-left: 20vw;
+  margin-top: 2vw;
+  width: 5vw;
+}
+
+.items-select{
+  margin-left: 72.5vw;
+  margin-top: 2vw;
+  width: 5vw;
+}
+
+.start{
+  width: 5vw;
+  margin-left: 44.5vw;
+  margin-top: 30vw;
+}
+
+.delete{
+  margin-top: 10vw;
+  position: absolute;
+  z-index: 1;
+}
+
+h1{
+  z-index: 5;
+  position: absolute;
+  margin-top: 2vw;
+  width: 100vw;
+  text-align: center;
+}
+
+.h1-anime{
+  animation: h1-animation 10s;
+}
+
+.black{
+  width: 100vw;
+  z-index: 1;
+  display: none;
+}
+
+.B-black-anime{
+  width: 100vw;
+  z-index: 1;
+  animation: black-animation 10s;
+}
+
+.white{
+  width: 100vw;
+  z-index: 2;
+  opacity: 0.3;
+  display: none;
+}
+
+.white-anime{
+  animation: white-animation 10s;
+}
+
+.black-anime{
+  animation: black-animation-2 10s;
+}
+
+.young{
+  display: none;
+}
+
+.young-anime{
+  animation: young-animation 10s;
+}
+
+.C-young{
+  z-index: 4;
+  width: 36vw;
+  margin-left: 30vw;
+  margin-top: 5vw;
+}
+
+.A-young{
+  z-index: 4;
+  width: 50vw;
+  margin-left: 25vw;
+  margin-top: 6vw;
+}
+
+.B-young{
+  z-index: 4;
+  width: 50vw;
+  margin-left: 25vw;
+  margin-top: 3vw;
+}
+
+.future-anime{
+  animation: future-animation 10s;
+}
+
+.A-future{
+  z-index: 4;
+  width: 30vw;
+  margin-left: 35vw;
+  margin-top: 6vw;
+}
+
+.C-future{
+  z-index: 4;
+  width: 45vw;
+  margin-left: 27.5vw;
+  margin-top: 7vw;
+}
+
+.B-future{
+  z-index: 4;
+  width: 45vw;
+  margin-left: 26vw;
+  margin-top: 6vw;
+}
+
+.future{
+  display: none;
+}
+
+@keyframes white-animation{
+  0%{opacity: 0;}
+ 20%{opacity: 0.3;}
+100%{opacity: 0.3;}
+}
+
+@keyframes black-animation{
+  0%{opacity: 0;}
+ 20%{opacity: 1;}
+100%{opacity: 1;}
+}
+
+@keyframes black-animation-2{
+  0%{opacity: 0;}
+ 10%{opacity: 1;}
+ 20%{opacity: 1;}
+ 35%{opacity: 0;}
+100%{opacity: 0;}
+}
+
+
+@keyframes young-animation{
+  0%{opacity: 0;}
+ 20%{opacity: 0;}
+ 35%{opacity: 1;}
+ 45%{opacity: 1;}
+ 70%{opacity: 0;}
+100%{opacity: 0;}
+}
+
+@keyframes future-animation{
+  0%{opacity: 0;}
+ 45%{opacity: 0;}
+ 70%{opacity: 1;}
+100%{opacity: 1;}
+}
+
+@keyframes h1-animation{
+  0%{opacity: 0;}
+ 45%{opacity: 0;}
+ 70%{opacity: 0;}
+ 80%{opacity: 1;}
+100%{opacity: 1;}
+}

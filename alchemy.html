@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>魔法の錬金術</title>
+  <link rel="stylesheet" href="alchemy.css">
+</head>
+<body>
+  <h1 id="h1">下の子供、アイテムからそれぞれ1つ選んで合成してみよう　</h1>
+  <div id="delete" class="delete">
+    <select id="kids-select" class="kids-select" onchange="selectKids()">
+      <option>少女A</option>
+      <option>少年B</option>
+      <option>少年C</option>
+    </select>
+    <img src="./img/A-girl.png" alt="kids" id="kids" class="kids">
+      <select id="items-select" class="items-select" onchange="selectItem()">
+          <option>本</option>
+          <option>問題集</option>
+          <option>ゲーム</option>
+          <option>スマホ</option>
+      </select>
+    <img src="./img/book.png" alt="items" id="items" class="items">
+  <button id="start" class="start"><p>合成する</p></button>
+  </div>
+    <img src="./img/white.png" alt="white" id="white" class="white">
+    <img src="./img/black.png" alt="black" id="black" class="black">
+    <img src="./img/A-study.png" alt="young" id="young" class="young">
+    <img src="./img/woman.png" alt="future" id="future" class="future">
+  <script src="alchemy.js"></script>
+</body>
+</html>
