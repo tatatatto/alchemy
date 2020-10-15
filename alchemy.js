@@ -59,7 +59,7 @@ function startFunc(){
     black.classList.add("black-anime");
     black.style.display = "block";
     h1.classList.add("h1-anime");
-    h1.innerText = "大手弁護士勤務。数年のうちに独立する予定";
+    h1.innerText = "大手弁護士事務所勤務。数年のうちに独立する予定";
     break;
     case "少年B":
     young.src = "./img/B-study.png";
