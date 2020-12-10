@@ -12,6 +12,15 @@ const white = document.getElementById("white");
 const kSelect = document.getElementById("kids-select");
 const iSelect = document.getElementById("items-select");
 
+const img_list = ["./img/book.png";,"./img/textbook.png","./img/game.png","./img/smartphone.png","./img/A-girl.png","./img/B-boy.png","./img/C-boy.png","./img/A-study.png","./img/woman.png","./img/C-young.png","./img/family.png","./img/B-study.png","./img/neet.png"];
+
+for(i = 0; i < img_list.length; i++){
+  var res = document.createElement("img");
+  res.src = img_list[i].white;
+  document.head.appendChild(res);
+  console.log("画像ロード");
+  console.log(res);}
+  
 function selectItem(){
 switch(iSelect.value){
   case "本":
