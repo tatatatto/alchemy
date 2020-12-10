@@ -16,7 +16,7 @@ const img_list = ["./img/book.png","./img/textbook.png","./img/game.png","./img/
 
 for(i = 0; i < img_list.length; i++){
   var res = document.createElement("img");
-  res.src = img_list[i].white;
+  res.src = img_list[i];
   document.head.appendChild(res);
   console.log("画像ロード");
   console.log(res);}
